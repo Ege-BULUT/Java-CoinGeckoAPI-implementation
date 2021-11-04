@@ -33,10 +33,5 @@ public class TestMain {
         axs = client.getPrice("axie-infinity",Currency.TRY);
         axsPrice = axs.get("axie-infinity").get(Currency.TRY);
         System.out.println("axs/try: "+axsPrice);
-
-
-
-
-
     }
 }
